@@ -6,7 +6,7 @@ namespace todo
     public class TodoRow
     {
         public int Id { get; set; }
-        public string Title { get; set; }
+        public string Title { get; set; } = "";
         public string Due { get; set; } = DateTime.Now.AddDays(12).ToString("dd/MM/yyyy");
         public bool Completed { get; set; } = false;
         public long Unix()

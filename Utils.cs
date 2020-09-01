@@ -92,7 +92,7 @@ Sort table using ID's:
             string Completed = GetFlag("Completed");
 
             if (Title)
-                Row.Title = GetFlag("Title");
+                Row.Title = GetFlag("Title") ?? "";
 
             if (!string.IsNullOrWhiteSpace(Due))
                 Row.Due = Due;
