@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "todo": {
+      "commandName": "Project",
+      "commandLineArgs": "-add "
+    }
+  }
+}
